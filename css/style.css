@@ -1,0 +1,154 @@
+body{
+  font-family: Arial, Helvetica, Sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #E1EFFF;
+}
+/*global*/
+  .container{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .news{
+    width: 97%;
+    overflow:hidden;
+    float:left;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .button_1{
+    height: 38px;
+    background: #6D89BF;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #E1EFFF;
+  }
+.dark{
+  padding: 15px;
+  background: #1B2529;
+  color: #E1EFFF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*header*/
+header{
+  background: #1B2529;
+  color: #E1EFFF;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #6D89BF 3px solid;
+
+}
+
+header a{
+  color: #E1EFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+  font-weight: bold;
+}
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin: 0;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+header .highlight, header .current a{
+  color: #6D89BF;
+  font-weight: bold;
+}
+header a:hover{
+  color: #96F0F0;
+  font-weight: bold;
+}
+/*showcase*/
+#showcase{
+  min-height: 600px;
+  background: url('../img/background.jpg') no-repeat 0px 0px;
+  text-align: center;
+  text-shadow: 1px 1px #ffffff;
+  color: #1B2529;
+}
+#showcase h1{
+  margin-top: 200px;
+  margin-bottom: 10px;
+  font-size: 38px;
+}
+#showcase p{
+  font-size: 20px;
+}
+/*boxes*/
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+#boxes .box img{
+  width: 90px;
+}
+
+/*sidebar*/
+aside#sidebar{
+  margin-top: 80px;
+  height: 50%;
+  background-color: #ffffff;
+  float: right;
+}
+
+/*main-col*/
+article#main-col{
+  text-align: justify;
+}
+
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #6D89BF;
+  text-align: center;
+}
+
+/*Media Quaries*/
+@media(max-width: 768px){
+  header#brading,
+  header nav,
+  header nav li,
+  aside#sidebar{
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+  header{
+    padding-bottom: 20px;
+  }
+  #showcase h1{
+    margin-top: 40px;
+  }
+  #boxes .box{
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+}
+/*A honlapot teljes egészében szerkesztette: Fodor Mátyás. 2019*/
